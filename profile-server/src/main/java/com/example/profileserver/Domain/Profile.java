@@ -5,6 +5,8 @@ import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
+
 @Document
 @Getter
 @Setter
@@ -24,7 +26,7 @@ public class Profile {
 
     private Integer remainingVacationDay;
 
-//    private String profileAvatar;
-//    private List<DailyTimesheet> template;
+    private String profileAvatar;
 
+    private List<DailyTimesheet> weeklyTimesheetTemplate;
 }
