@@ -1,7 +1,7 @@
 package com.example.profileserver.Domain;
 
 public class DailyTimesheet {
-    private String weekday;
+    private String day;
 
     private String date;
 
